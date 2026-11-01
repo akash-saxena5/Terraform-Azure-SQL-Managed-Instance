@@ -164,4 +164,4 @@ Planned enhancements:
 
 ## Disclaimer
 
-This repository is a learning and demonstration project. Review networking, identity, resource sizing, cost, and security requirements before using it for production workloads.
+This repository is a learning and demonstration project. Review networking, identity, resource sizing, cost, and security requirements before using it for production workloads
