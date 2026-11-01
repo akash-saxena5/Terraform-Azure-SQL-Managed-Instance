@@ -2,7 +2,7 @@
 
 Deploy Azure SQL Managed Instance and the required networking infrastructure using Terraform.
 
-This project demonstrates Infrastructure as Code (IaC) practices for provisioning a managed SQL Server platform in Microsoft Azure using the HashiCorp AzureRM provider.
+This project demonstrates Infrastructure as Code (IaC) practices for provisioning a SQL Server Managed Instance in Microsoft Azure using the HashiCorp AzureRM provider.
 
 ## Overview
 
