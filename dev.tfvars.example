@@ -1,0 +1,42 @@
+
+subscription_id = "**************************"
+
+environment = "dev"
+location    = "eastus"
+
+# Resource Group
+resource_group_name = "rg-sqlmi-dev"
+
+# Networking
+vnet_name          = "vnet-sqlmi-dev"
+vnet_address_space = ["10.20.0.0/16"]
+
+mi_subnet_name             = "snet-sqlmi-dev"
+mi_subnet_address_prefixes = ["10.20.1.0/24"]
+
+nsg_name         = "nsg-sqlmi-dev"
+route_table_name = "rt-sqlmi-dev"
+
+# SQL Managed Instance
+managed_instance_name = "sqlmi-youruniqueid-dev"
+
+sku_name           = "GP_Gen5"
+vcores             = 4
+storage_size_in_gb = 32
+
+license_type = "LicenseIncluded"
+
+# Authentication
+administrator_login = "sqlmiadmin"
+
+# SQL Settings
+timezone_id                  = "Eastern Standard Time"
+minimum_tls_version          = "1.2"
+public_data_endpoint_enabled = false
+
+# Tags
+tags = {
+  Environment = "Development"
+  Project     = "Terraform-SQLMI"
+  ManagedBy   = "Terraform"
+}
